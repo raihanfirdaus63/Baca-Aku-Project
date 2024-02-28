@@ -1,0 +1,159 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: rgb(36, 35, 35);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 35, 35, 1) 0%,
+    rgba(52, 52, 52, 1) 20%,
+    rgba(74, 74, 74, 1) 40%,
+    rgba(98, 98, 98, 1) 60%,
+    rgba(107, 106, 106, 1) 80%
+  );
+}
+
+.navbar-brand {
+  color: #fae19d !important; /* Warna teks brand */
+  font-size: 1.5rem;
+  font-family: "Garamond", serif; /* Ubah jenis font sesuai keinginan */
+}
+
+.navbar-toggler {
+  border: none !important; /* Hilangkan border pada tombol toggle */
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #fae19d;
+  font-size: 1.2rem;
+  margin: 0 15px;
+  overflow: hidden;
+}
+
+.nav-link::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: #fae19d;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.nav-link:hover {
+  color: #fae19d;
+}
+
+/* Dropdown styling */
+.dropdown-menu {
+  background-color: #212121; /* Warna latar belakang dropdown */
+  border: none; /* Hilangkan border */
+}
+
+.dropdown-item {
+  color: #000000 !important; /* Warna teks item dropdown */
+  font-size: 1.2rem;
+}
+
+.dropdown-item:hover {
+  background-color: #353535; /* Warna latar belakang saat hover */
+}
+
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  animation: move 2s linear infinite;
+}
+
+
+@keyframes move {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  25% {
+    transform: translate(-50%, -50%) translateX(-20px) translateY(-20px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(20px) translateY(20px);
+  }
+  75% {
+    transform: translate(-50%, -50%) translateX(-20px) translateY(20px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateX(20px) translateY(-20px);
+  }
+}
+
+button.accordion-button.collapsed{
+  background-color: transparent;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 14px 16px;
+  outline: none;
+}
+button.accordion-button{
+  background-color: transparent;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 14px 16px;
+  outline: none;
+}
+button.accordion-button:focus{
+  background-color: transparent;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 14px 16px;
+  outline: none;
+  border: none;
+}
+button.accordion-button:not(.collapsed){
+  background-color: transparent;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 14px 16px;
+  outline: none;
+}
+button.accordion-button::after(.collapsed){
+  background-color: transparent;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 14px 16px;
+  outline: none;
+}
+button.accordion-button::after{
+  color: white;
+}
+@keyframes moveRandom {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 50px);
+  }
+  50% {
+    transform: translate(50px, 0);
+  }
+  75% {
+    transform: translate(0, -50px);
+  }
+  100% {
+    transform: translate(-50px, 0);
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Phoenix",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/9IhOsc0.png",
+    "discount": 35,
+    "code": 1,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Phoenix-i.565993996.16798591567?sp_atk=f09750bc-e670-4849-af56-31dc52145e29&xptdk=f09750bc-e670-4849-af56-31dc52145e29"
+  },
+  {
+    "name": "Orion",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/O4n0nNf.png",
+    "discount": 35,
+    "code": 2,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Orion-i.565993996.23052280544?sp_atk=8fd5151d-d9f2-401f-a647-a4e59b806005&xptdk=8fd5151d-d9f2-401f-a647-a4e59b806005"
+ },
+  {
+    "name": "Lynx",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/gcNMYJm.png",
+    "discount": 35,
+    "code": 3,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Lynk-i.565993996.22052279979?sp_atk=113b461b-a095-4257-b73f-8bdc8d96a9f7&xptdk=113b461b-a095-4257-b73f-8bdc8d96a9f7"
+ },
+  {
+    "name": "Auristela",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/eHIk9WH.png",
+    "discount": 35,
+    "code": 4,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Auristela-i.565993996.22477777898?sp_atk=eca39d70-343f-4c0f-9a07-a06a00ebf8a4&xptdk=eca39d70-343f-4c0f-9a07-a06a00ebf8a4"
+ },
+  {
+    "name": "Cassiopeia",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/6JXs0XN.png",
+    "discount": 35,
+    "code": 5,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Cassiopeia-i.565993996.23852279956?sp_atk=f987dd1a-3c14-422a-8e9e-013a02d01734&xptdk=f987dd1a-3c14-422a-8e9e-013a02d01734"
+ },
+  {
+    "name": "Sirius",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/CbMq4xL.png",
+    "discount": 35,
+    "code": 6,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Sirius-i.565993996.21483285439?sp_atk=f59c26bb-8ea8-4248-b016-c27d5248e211&xptdk=f59c26bb-8ea8-4248-b016-c27d5248e211"
+ },
+  {
+    "name": "Lyra",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/PHC2J5r.png",
+    "discount": 35,
+    "code": 7,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Lyra-i.565993996.23177771663?sp_atk=a6086a21-3420-42e5-bd14-0eede01be37c&xptdk=a6086a21-3420-42e5-bd14-0eede01be37c"
+ },
+  {
+    "name": "Volans",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/IqRT8P4.png",
+    "discount": 35,
+    "code": 8,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Volans-i.565993996.23952285352?sp_atk=0e84e614-ba89-4581-943c-e9cad4cbe1e1&xptdk=0e84e614-ba89-4581-943c-e9cad4cbe1e1"
+ },
+  {
+    "name": "Ara",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/2audd4w.png",
+    "discount": 35,
+    "code": 9,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Ara-i.565993996.16195792077?sp_atk=b5b29c15-86bf-462c-82c6-424409b3f206&xptdk=b5b29c15-86bf-462c-82c6-424409b3f206"
+ },
+  {
+    "name": "Perseus",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/TwnP8cZ.png",
+    "discount": 35,
+    "code": 10,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Perseus-i.565993996.20092236928?sp_atk=37beea49-e7f5-47af-b803-fa331a956816&xptdk=37beea49-e7f5-47af-b803-fa331a956816"
+  },
+  {
+    "name": "Hydra",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/qD1HYjK.png",
+    "discount": 35,
+    "code": 11,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Hydra-i.565993996.21283286226?sp_atk=49bba217-39ca-4399-8ac8-27a1aa9d1afa&xptdk=49bba217-39ca-4399-8ac8-27a1aa9d1afa"
+  },
+  {
+    "name": "Draco",
+    "price": 232000,
+    "rating": 4.9,
+    "element": "water",
+    "image": "https://i.imgur.com/0UmgJU0.png",
+    "discount": 35,
+    "code": 12,
+    "link": "https://shopee.co.id/Parfum-Aura-Lantih-Aura-Draco-i.565993996.14099365642?sp_atk=5888580f-f7d4-4ba4-bbdb-ecb4c0345cf2&xptdk=5888580f-f7d4-4ba4-bbdb-ecb4c0345cf2"
+  }
+]
