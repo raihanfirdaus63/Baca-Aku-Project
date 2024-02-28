@@ -1,5 +1,5 @@
-// const BASE_URL = "https://server.bacaaku.com";
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://server.bacaaku.com";
+// const BASE_URL = "http://localhost:3000";
 
 export const registerUser = (registerForm) => {
   return async (dispatch, state) => {

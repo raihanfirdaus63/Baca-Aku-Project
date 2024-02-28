@@ -32,7 +32,7 @@ const images = {
 // Array untuk menyimpan detail Card
 const cards = [
   {
-    title: "Karakterku",
+    title: "Karakterku (On Trial)",
     description:
       "Kamu akan menemukan bagaimana karakter kamu sebenarnya yang belum kamu sadari.",
     image: images.karakterImage,
