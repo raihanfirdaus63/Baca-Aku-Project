@@ -3,7 +3,6 @@ const BASE_URL = "https://server.bacaaku.com";
 
 export const registerUser = (registerForm) => {
   return async (dispatch, state) => {
-    console.log(registerForm,"actionform")
       try {
           const response = await fetch(`${BASE_URL}/register-user`,{
               method: 'POST',
@@ -23,7 +22,6 @@ export const registerUser = (registerForm) => {
 
 export const loginUser = (formLogin) => {
     return async (dispatch, state) => {
-      console.log(formLogin)
       try {
         const response = await fetch(`${BASE_URL}/login-user`, {
           method: 'POST',

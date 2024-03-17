@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import loaderImage from "../assets/images/loader-image.png";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchDataPersonality } from "../store/actions/personalityAction";
+import ReactPlayer from "react-player";
 
 function KarakterkuPage() {
   const dispatch = useDispatch();
@@ -169,25 +170,26 @@ function KarakterkuPage() {
 
                     {/* Menampilkan data produk */}
                     {product && (
-                      <div className="mt-5 d-flex justify-content-center align-items-center">
+                      <div className="mt-3">
                         <Container>
-                          <Row className="d-flex justify-content-center align-items-center">
+                          <Row className="d-flex justify-content-center align-items-center m-3">
                             <Col
                               sm={6}
-                              className="d-flex flex-column justify-content-center align-items-center"
+                              className="d-flex flex-column justify-content-center align-items-center m-3"
                               style={{
-                                fontSize: "15px",
+                                fontSize: "14px",
                                 borderRadius: "10px",
                                 background: "rgba(33, 33, 33, 0.8)",
                                 boxShadow:
                                   "5px 5px 15px #0d0d0d, -5px -5px 15px #353535",
-                                padding: "15px",
+                                padding: "15px"
                               }}
                             >
                               <p
                                 className=""
                                 style={{
                                   fontStyle: "italic",
+                                  color: "#FAE19D"
                                 }}
                               >
                                 Pintu-pintu rahasia dalam dirimu akan terbuka.
@@ -197,7 +199,9 @@ function KarakterkuPage() {
                                 keberuntungan perlahan satu persatu menjadi
                                 positif.
                               </p>
-                              <div className="mb-3 ">
+                              <div className="mb-3" style={{
+                                color: "#FAE19D"
+                              }}>
                                 Parfume Aura {product.name} untukmu. Saatnya
                                 menjadi kamu yang baru
                               </div>
@@ -206,26 +210,38 @@ function KarakterkuPage() {
                                 target="_blank"
                                 className="d-flex justify-content-center align-items-center"
                                 style={{
-                                  backgroundColor: "#fae19d",
+                                  backgroundColor: "white",
                                   color: "black",
                                   border: "none",
                                   padding: "5px",
                                   borderRadius: "5px",
                                   textDecoration: "none",
+                                  fontWeight: "bold"
+
                                 }}
                               >
-                                Buy Now
+                                Order Now
                               </a>
                             </Col>
                             <Col
-                              sm={6}
-                              className="d-flex justify-content-center align-items-center mt-3"
+                              sm={5}
+                              className="d-flex justify-content-center align-items-center"
                             >
-                              <img
+                              {/* <img
                                 src={product.image}
                                 alt={product.name}
                                 style={{ width: "300px", height: "300px" }}
-                              />
+                              /> */}
+                              <div className="player-wrapper d-flex justify-content-center align-items-center">
+                                <ReactPlayer
+                                  className="react-player"
+                                  url="https://v16m-default.akamaized.net/6e977a1ad242e23014196a0baef65c0f/65f7267a/video/tos/maliva/tos-maliva-v-7bbcef-us/3a9009585bca4e2dac3ac6a6d46438e8/?a=0&ch=0&cr=0&dr=0&er=0&lr=default&cd=0%7C0%7C0%7C0&br=15000&bt=7500&bti=PDM8QDI2M2A%3D&cs=0&ds=4&ft=.cwOVInz7ThPdD3mXq8Zmo&mime_type=video_mp4&qs=13&rc=M3B2azY6Zmk7ZDMzNzNoM0BpM3B2azY6Zmk7ZDMzNzNoM0Bsbm0xcjRnM25gLS1kXjZzYSNsbm0xcjRnM25gLS1kXjZzcw%3D%3D&vvpl=1&l=202403171120377C4DD4530ADB692E35FE&btag=e00048000"
+                                  width="50%"
+                                  height="100%"
+                                  controls={true}
+                                  playing={true}
+                                />
+                              </div>
                             </Col>
                           </Row>
                         </Container>
